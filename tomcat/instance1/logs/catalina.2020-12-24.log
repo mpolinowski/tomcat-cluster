@@ -1,0 +1,130 @@
+24-Dec-2020 07:25:55.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+24-Dec-2020 07:25:55.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+24-Dec-2020 07:25:55.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+24-Dec-2020 07:25:55.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Dec-2020 07:25:55.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.8.0-33-generic
+24-Dec-2020 07:25:55.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2020 07:25:55.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Dec-2020 07:25:55.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9.1+1-Ubuntu-0ubuntu1.20.10
+24-Dec-2020 07:25:55.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Dec-2020 07:25:55.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/apache-tomcat-9.0.41
+24-Dec-2020 07:25:55.489 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-9.0.41
+24-Dec-2020 07:25:55.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Dec-2020 07:25:55.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Dec-2020 07:25:55.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Dec-2020 07:25:55.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/latest/conf/logging.properties
+24-Dec-2020 07:25:55.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2020 07:25:55.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:///dev/urandom
+24-Dec-2020 07:25:55.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+24-Dec-2020 07:25:55.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2020 07:25:55.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2020 07:25:55.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Dec-2020 07:25:55.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+24-Dec-2020 07:25:55.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+24-Dec-2020 07:25:55.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+24-Dec-2020 07:25:55.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2020 07:25:55.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/latest
+24-Dec-2020 07:25:55.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/latest
+24-Dec-2020 07:25:55.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/latest/temp
+24-Dec-2020 07:25:55.538 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Dec-2020 07:25:55.597 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Dec-2020 07:25:55.654 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+24-Dec-2020 07:25:56.344 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1804] milliseconds
+24-Dec-2020 07:25:56.429 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2020 07:25:56.430 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+24-Dec-2020 07:25:56.442 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/manager]
+24-Dec-2020 07:25:56.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/manager] has finished in [402] ms
+24-Dec-2020 07:25:56.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/ROOT]
+24-Dec-2020 07:25:56.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/ROOT] has finished in [29] ms
+24-Dec-2020 07:25:56.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/examples]
+24-Dec-2020 07:25:57.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/examples] has finished in [422] ms
+24-Dec-2020 07:25:57.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/host-manager]
+24-Dec-2020 07:25:57.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/host-manager] has finished in [24] ms
+24-Dec-2020 07:25:57.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/boilerplate]
+24-Dec-2020 07:25:57.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/boilerplate] has finished in [28] ms
+24-Dec-2020 07:25:57.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/docs]
+24-Dec-2020 07:25:57.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/webapps/docs] has finished in [19] ms
+24-Dec-2020 07:25:57.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/virtual-hosts/host3/ROOT]
+24-Dec-2020 07:25:57.426 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/virtual-hosts/host3/ROOT] has finished in [56] ms
+24-Dec-2020 07:25:57.427 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/virtual-hosts/host1/ROOT]
+24-Dec-2020 07:25:57.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/virtual-hosts/host1/ROOT] has finished in [50] ms
+24-Dec-2020 07:25:57.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/apache-tomcat-9.0.41/virtual-hosts/host2/ROOT]
+24-Dec-2020 07:25:57.536 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/apache-tomcat-9.0.41/virtual-hosts/host2/ROOT] has finished in [58] ms
+24-Dec-2020 07:25:57.540 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Dec-2020 07:25:57.654 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+24-Dec-2020 07:25:57.711 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1365] milliseconds
+24-Dec-2020 12:44:59.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.41
+24-Dec-2020 12:44:59.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 3 2020 11:43:00 UTC
+24-Dec-2020 12:44:59.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.41.0
+24-Dec-2020 12:44:59.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Dec-2020 12:44:59.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.8.0-33-generic
+24-Dec-2020 12:44:59.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Dec-2020 12:44:59.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Dec-2020 12:44:59.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9.1+1-Ubuntu-0ubuntu1.20.10
+24-Dec-2020 12:44:59.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Dec-2020 12:44:59.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat/instance1
+24-Dec-2020 12:44:59.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat/apache-tomcat-9.0.41
+24-Dec-2020 12:44:59.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Dec-2020 12:44:59.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Dec-2020 12:44:59.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/instance1/conf/logging.properties
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat/instance1
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat/latest
+24-Dec-2020 12:44:59.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/instance1/temp
+24-Dec-2020 12:44:59.184 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Dec-2020 12:44:59.575 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8180"]
+24-Dec-2020 12:44:59.607 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8109"]
+24-Dec-2020 12:44:59.609 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [684] milliseconds
+24-Dec-2020 12:44:59.675 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Dec-2020 12:44:59.676 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.41]
+24-Dec-2020 12:44:59.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/webapps/manager]
+24-Dec-2020 12:45:00.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/webapps/manager] has finished in [319] ms
+24-Dec-2020 12:45:00.003 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/webapps/ROOT]
+24-Dec-2020 12:45:00.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/webapps/ROOT] has finished in [24] ms
+24-Dec-2020 12:45:00.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/webapps/examples]
+24-Dec-2020 12:45:00.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/webapps/examples] has finished in [235] ms
+24-Dec-2020 12:45:00.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/webapps/host-manager]
+24-Dec-2020 12:45:00.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/webapps/host-manager] has finished in [26] ms
+24-Dec-2020 12:45:00.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/webapps/boilerplate]
+24-Dec-2020 12:45:00.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/webapps/boilerplate] has finished in [28] ms
+24-Dec-2020 12:45:00.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/webapps/docs]
+24-Dec-2020 12:45:00.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/webapps/docs] has finished in [20] ms
+24-Dec-2020 12:45:00.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/virtual-hosts/host3/ROOT]
+24-Dec-2020 12:45:00.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/virtual-hosts/host3/ROOT] has finished in [31] ms
+24-Dec-2020 12:45:00.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/virtual-hosts/host1/ROOT]
+24-Dec-2020 12:45:00.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/virtual-hosts/host1/ROOT] has finished in [31] ms
+24-Dec-2020 12:45:00.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/instance1/virtual-hosts/host2/ROOT]
+24-Dec-2020 12:45:00.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/instance1/virtual-hosts/host2/ROOT] has finished in [29] ms
+24-Dec-2020 12:45:00.443 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8180"]
+24-Dec-2020 12:45:00.476 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector[AJP/1.3-8109]]
+	org.apache.catalina.LifecycleException: Protocol handler start failed
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1067)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:451)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.lang.IllegalArgumentException: The AJP Connector is configured with secretRequired="true" but the secret attribute is either null or "". This combination is not valid.
+		at org.apache.coyote.ajp.AbstractAjpProtocol.start(AbstractAjpProtocol.java:270)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1064)
+		... 12 more
+24-Dec-2020 12:45:00.483 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [873] milliseconds
+24-Dec-2020 15:47:26.423 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8180"]
+24-Dec-2020 15:47:26.451 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-8109"]
+24-Dec-2020 15:47:26.456 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Dec-2020 15:47:26.698 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8180"]
+24-Dec-2020 15:47:26.728 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8180"]
+24-Dec-2020 15:47:26.733 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-8109"]
+24-Dec-2020 15:47:26.733 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-8109"]
